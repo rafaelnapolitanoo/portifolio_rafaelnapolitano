@@ -1,0 +1,41 @@
+-----------------------------------------------------
+°Possiveis tecnologias a serem ultilizadas
+
+- Python com django ou flask
+- html css
+- react ou javascrpit
+
+
+
+-----------------------------------------------------
+°Ideias Clean direto e surpreendente
+
+clean:
+    light mode
+    harmonico
+    paleta de cores
+direto:
+
+    oi eu sou o rafael (médio)
+    SOFTWERE lkd, gh, download curriculo  (Grande)
+     DEVELOPER  
+        sou rafael comecei  (pequeno)
+        a programar por bla bla bla
+        proj legais
+
+
+-----------------------------------------------------
+°Inicio do Projeto
+
+#parte 1:
+    pagina me apresentando com texto direto
+    botao que redireicone para linkedin github e baixe arquivo
+    texto base sobre mim
+
+#parte 2:
+    nivel em tecnologias
+    projetos que eu ja trabalhei
+    projetos pessoais
+
+#parte 3:
+    contato

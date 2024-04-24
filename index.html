@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Rafael Napolitano</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    
+</head>
+
+
+<body>
+
+    <!--header design-->
+    <header>
+        <a href="#" class="logo"><span>Napo</span>litano</a>
+
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#experience">Experiences</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#services">Skills</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-div">
+            <div class="home-text">
+                <div class="slide">
+                    <span class="one">Hello</span>
+                    <span class="two">I'm</span>
+                </div>
+                <h1>Rafael Napolitano</h1>
+                <h3>Python<span> Developer</span></h3>
+                <div class="button">
+                    <a href="#portfolio" class="btn2"><span><i class="bx bx-play"></i></span>See my work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <!--minha foto-->
+            <img src="img/foto_profissional.png">
+        </div>
+
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Turning lines of code into lines of opportunity.</h4>
+
+            <!--faculdade-->
+            
+            <p>&bull; 1 year experience as python freelancer</p>
+
+            <!--meu link do certificado de inles e minha qualificação-->
+            <p>&bull; <a class="link" href="https://cert.efset.org/5Vpkda" target="_blank">English Level: Upper Intermediate B2</a></p>
+
+            <!--colocar o que eu estou sempre estudando e aprendendo-->
+            <p>&bull; Studying Cloud Solutions in AWS, Microservices, Python, Data Analysis and MySQL</p>
+
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/rafaelnapolitano/" target="_blank" class="btn-socials"><span><i class="bx bxl-linkedin"></i></span></a>
+                <a href="https://github.com/rafaelnapolitanoo" target="_blank" class="btn-socials"><span><i class="bx bxl-github"></i></a>
+                <a href="https://www.tiktok.com/@napolitano_rafael" target="_blank" class="btn-socials"><span><i class="bx bxl-tiktok"></i></i></a>
+                <a href="https://www.instagram.com/rafaelnapolitano_/" target="_blank" class="btn-socials"><span><i class="bx bxl-instagram"></i></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!--portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <p>Portfolio</p>
+            <h2>Latest <span>Projects</span></h2>
+        </div>
+
+        <div class="portfolio-content">
+
+            <div class="row">
+                <img src="img/img_projeto_airbnb.png">
+                <div class="layer">
+                    <a href="https://github.com/rafaelnapolitanoo/ML-python-previsao-de-preco-Airbnb" target="_blank"><h5>Machine learning</h5></a>
+                    <p><b>--IDEA--:</b>The initial idea of ​​the project was to create a ml that could predict fair prices for each Airbnb accommodation.
+                        <b>--TECH/libs--</b> that I use here: Python • Pandas • Seaborn • Numpy • matplotlib.pyplot • sklearn (LinearRegression ,RandomForestRegressor, ExtraTreesRegressor) • joblit • tkinter • Paths.
+                        <b>--OUTPUT--:</b> An .exe file with tkinter integration that you just need to give the values and the funcion show the price.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/img_projeto_webscraping.png">
+                <div class="layer">
+                    <a href="https://github.com/rafaelnapolitanoo/Selenium-web-scraping-comparar-precos-de-produtos" target="_blank"><h5> Web Scraping </h5> </a>
+                    <p><b>--IDEA--:</b> The purpose of this selenium application is to quickly obtain a table with the different prices of the same product on different websites, following already established parameters. Name by excel file. 
+                        <b>--TECH/libs--</b> that I use here: Python • Selenium • Data Scraping • WebDriver • Data Analysis
+                        <b>--OUTPUT--:</b> An email containing the prices and links resulting from the product search 
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/img_copia_netflix.png">
+                <div class="layer">
+                    <h5>Netflix Clone</h5>
+                    <p>Developed in a <b>Microservices Architecture</b>:</p>
+                    <br>
+                    <p> Django • CRUD (sqlite) • Auth Service • Recommendation Service • Content Management Service • Python • Git • HTML • CSS • BootStrap • JS
+                         • Docker.</p>
+                    <a href="https://github.com/rafaelnapolitanoo/" target="_blank"><i
+                            class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/img_proj_automacao_tarefas.png">
+                <div class="layer">
+                    <h5>RPA (robotic process automation)</h5>
+                    <p><b>--IDEA--:</b>  The project consists of automating the process of sending a daily report with sales data and results from all stores of a given brand, and at the end sends an email to the respective managers of each store and also to the board of directors by a lot of emails. 
+                        <b>--TECH/libs--:</b>  Pandas • Pyautogui • Openpyxl
+                        </p>
+                    <a href="https://github.com/rafaelnapolitanoo/On-Page-automatico-com-python" target="_blank"><i
+                            class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/proj_wk_api.png">
+                <div class="layer">
+                    <h5>Workout API</h5>
+                    <p><b>--IDEA--: </b> My first api, you can use the methods get and post to use it 
+                        <b>--TECH/libs--:</b> FastAPI • Docker • Python • Microservices
+                        <b>--OUTPUT--:</b>a list with the athlete's name, box and his training modality</p>
+                    <a href="https://github.com/rafaelnapolitanoo/" target="_blank"><i
+                            class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/proj_analise_fundamentalista.png">
+                <div class="layer">
+                    <h5>Fundamental Analysis</h5>
+                    <p>This personal project aims to merge programming and economics to facilitate fundamental analysis of companies before making investment decisions. The code comprehends key financial metrics including net profit, ROE, EBITDA, debt-to-equity, liquidity, and valuation multiples. It begins with user input to select a stock ticker, then retrieves financial indicators from the Fundamentus website via an API.
+                        </p>
+                    <a href="https://github.com/rafaelnapolitanoo/Fundamental-Analysis" target="_blank"><i
+                            class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            
+            <div class="row">
+                <img src="img/proj_busca_casas.png">
+                <div class="layer">
+                    <h5>Automation to search for houses to buy or rent</h5>
+                    <p><b>The application aims to</b>   simplify the process of searching for houses to rent/buy in a new city due to relocation constraints. It accomplishes this by automating form filling on websites based on user-inputted values, thus facilitating the search process. Additionally, the application applies specified filters such as minimum area, number of rooms, bathrooms, garages, and location. Using XPath, the application retrieves the first seven items matching the filters and presents them as a list with brief descriptions and advertisement links.
+                    </p>
+                    <a href="https://github.com/rafaelnapolitanoo/Automation-to-search-for-houses-to-buy-or-rent" target="_blank"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/proj_olx.png">
+                <div class="layer">
+                    <h5>Olx data scraping for car search</h5>
+                    <p>Python automation script designed to streamline the process of finding cars within your preferred price range. This innovative tool allows you to set your desired price range and automatically searches for cars that match your criteria. Once the cars are found, the script seamlessly fills out the necessary forms on automotive websites, saving you valuable time and effort  
+                        
+                    <a href="https://github.com/rafaelnapolitanoo/Olx-data-scraping-for-car-search" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="services" id="services">
+        <div class="main-text">
+            <p>What I am Good In</p>
+            <h2><span>My</span> Skills</h2>
+        </div>
+
+        <div class="services-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxl-python"></i>
+                </div>
+                <h3>Python</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bx-data"></i>
+                </div>
+                <h3>MySQL</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxl-django"></i>
+                </div>
+                <h3>Django</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bx-data"></i>
+                </div>
+                <h3>SQL Server</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxl-"></i>
+                </div>
+                <h3>Robotic Process Automation</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxl-docker"></i>
+                </div>
+                <h3>Docker</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxl-"></i>
+                </div>
+                <h3>Web Scraping</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxl-github"></i>
+                </div>
+                <h3>Git Github</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bx-selection"></i>
+                </div>
+                <h3>Api</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="services" id="services">
+        <div class="main-text">
+            <p>Learning</p>
+            <h2><span>Future</span> Skills</h2>
+        </div>
+
+        <div class="services-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxl-java"></i>
+                </div>
+                <h3>Java</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxl-aws"></i>
+                </div>
+                <h3>Amazon Web Services</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bx-selection"></i>
+                </div>
+                <h3>Microservices</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="end">
+        <div class="last-text">
+            <p>Copyright &#169; 2024 by Rafael Napolitano.</p>
+        </div>
+    </section>
+
+    <div id="top">
+        <a href="#home"><i class="bx bx-up-arrow-alt "></i></a>
+    </div>
+
+    <!--custom js link-->
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
